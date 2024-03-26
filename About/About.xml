@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Sheogorath Surprise</name>
+    <packageId>Theo.SheogorathSurprise</packageId>
+    <author>Theo</author>
+    <modVersion>1.0</modVersion>
+    <supportedVersions>
+        <li>1.4</li>
+        <li>1.5</li>
+    </supportedVersions>
+    <description>It is about time that everyone accepts what we knew all along, that Randy is Sheogorath.n\n\All this mod does is replace the texture and description for randy.</description>
+</ModMetaData>
