@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-    <name>Sheogorath Surprise</name>
-    <packageId>Theo.SheogorathSurprise</packageId>
-    <author>Theo</author>
+    <name>ESCP Storyteller Retexture</name>
+    <packageId>Theo.escp.storytellerrextexture</packageId>
+    <author>Theo, Jasper</author>
     <modVersion>1.0</modVersion>
     <supportedVersions>
         <li>1.4</li>

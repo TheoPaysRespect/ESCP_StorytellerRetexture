@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    <!--<success>always</success>-->
+
+<!--Cassandra as Azura Attentive-->
+<!--
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Cassandra"]/label</xpath>
+        <value>
+            <label>Azura Attentive</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Cassandra"]/description</xpath>
+        <value>
+            <description>Like dusk and dawn, Azura nurtures her story with both sorrow and joy. She offers a steadily increasing challenge to test your mettle.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Cassandra"]/portraitLarge</xpath>
+        <value>
+            <portraitLarge>UI/HeroArt/AzuraAttentive</portraitLarge>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Cassandra"]/portraitTiny</xpath>
+        <value>
+            <portraitTiny>UI/HeroArt/AzuraAttentiveTiny</portraitTiny>
+        </value>
+    </Operation>
+-->
+<!--Pheobe as Boethiah Betrayal-->
+<!--
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Pheobe"]/label</xpath>
+        <value>
+            <label>Boethiah Betrayal</label>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Pheobe"]/description</xpath>
+        <value>
+            <description>Boethiah revels in plots and schemes. They will send hostile events sparingly, to make you lower your guard before the serpents' strike.</description>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Pheobe"]/portraitLarge</xpath>
+        <value>
+            <portraitLarge>UI/HeroArt/BoethiahBetrayal</portraitLarge>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/StorytellerDef[defName="Pheobe"]/portraitTiny</xpath>
+        <value>
+            <portraitTiny>UI/HeroArt/BoethiahBetrayalTiny</portraitTiny>
+        </value>
+    </Operation>
+-->
+<!--Randy as Sheogorath Surprise-->
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/StorytellerDef[defName="Randy"]/label</xpath>
         <value>
@@ -11,20 +72,21 @@
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/StorytellerDef[defName="Randy"]/description</xpath>
         <value>
-            <description>Uncle Sheo doesn't follow rules. He'll generate random events, and he doesn't care if they make a story of triumph or utter hopelessness. The wilder the story, the happier he is.\n\nWarning: When you expect peace, he will give you conflict, and when you expect conflict, he will give you peace. Only then shall you understand true madness.</description>
+            <description>Uncle Sheo doesn't follow rules. He gives out whatever events he feels for in the momentn no matter the outcome. When you expect peace, he will give you conflict, and when you expect conflict, he will give you peace. Only then shall you understand true madness.</description>
         </value>
     </Operation>
 
-    <!--<Operation Class="PatchOperationReplace">
+    <Operation Class="PatchOperationReplace">
         <xpath>Defs/StorytellerDef[defName="Randy"]/portraitLarge</xpath>
         <value>
+            <portraitLarge>UI/HeroArt/SheogorathSurprise</portraitLarge>
         </value>
     </Operation>
 
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/StorytellerDef[defName="Randy"]/portraitTiny</xpath>
         <value>
+            <portraitTiny>UI/HeroArt/SheogorathSurpriseTiny</portraitTiny>
         </value>
-    </Operation>-->
-
+    </Operation>
 </Patch>
